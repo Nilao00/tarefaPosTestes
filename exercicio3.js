@@ -1,8 +1,6 @@
 function solution(inputString) {
     const palidrome = inputString.split("").reverse();
-    if (inputString === palidrome.join("")) {
-        return true;
-    }
+    const isPalidrom = inputString === palidrome.join("");   
 
-    return false;
+    return isPalidrom;
 }
